@@ -1,0 +1,106 @@
+
+.auth_wrapper {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  background-image: linear-gradient(to bottom, #022c3b, #011e29);
+  border-style: solid;
+  border-width: 1px;
+  max-width: 600px;
+  border-image-source: linear-gradient(NaNdeg, rgba(34, 218, 234, 0.49), rgba(255, 255, 255, 0));
+  border-image-slice: 1;
+  padding: 50px;
+  text-align: center;
+}
+.auth_wrapper h1, .auth_wrapper h4 {
+  color: white;
+}
+
+.sign_in_form {
+  background-color: red;
+  margin: 0 auto;
+  border-radius: 2px;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+  padding: 10px 20px 20px 20px;
+  width: 90%;
+  max-width: 320px;
+  background: #ffffff;
+  position: relative;
+}
+.sign_in_form_input{
+  display: block;
+  padding: 15px 10px;
+  margin-bottom: 10px;
+  width: 100%;
+  border: 1px solid #ddd;
+  transition: border-width 0.2s ease;
+  border-radius: 2px;
+  color: #ccc;
+}
+.sign_in_form_input + i.fa {
+  color: #fff;
+  font-size: 1em;
+  position: absolute;
+  margin-top: -43px;
+  margin-left: 1px;
+  opacity: 0;
+  left: 0;
+  transition: all 0.1s ease-in;
+}
+.sign_in_form_input:focus {
+  outline: none;
+  color: #444;
+  border-color: #242f32;
+  border-left-width: 35px;
+}
+.sign_in_form_input:focus + i.fa {
+  opacity: 1;
+  left: 30px;
+  transition: all 0.25s ease-out;
+}
+.sign_in_form_title {
+  color: #fff;
+  font-size: 1.4em;
+  font-weight: bold;
+  letter-spacing: .05em;
+  margin: 10px 0 15px 0;
+  padding-top: 10px;
+  border-bottom: 1px solid #eee;
+  vertical-align: middle;
+  background-color: #242f32;
+  line-height: 35px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+.sign_in_form_btn {
+  width: 100%;
+  height: 100%;
+  padding: 10px 10px;
+  background: #03d7ab;
+  outline: none;
+  font-weight: bold;
+  color: #fff;
+  display: block;
+  cursor: pointer;
+  border: none;
+  margin-top: 20px;
+  left: 0;
+  bottom: 0;
+  max-height: 60px;
+  border: 0px solid rgba(0, 0, 0, 0.1);
+  border-radius: 0 0 2px 2px;
+  transform: rotateZ(0deg);
+  transition: all 0.5s ease-out;
+}
+.sign_in_form_btn:hover {
+  text-shadow: 0 1px rgba(0, 0, 0, 0.3);
+  background-color: #242f32;
+}
+.sign_in_form_auth_error {
+  color: red;
+}
+.fa-ban {
+  margin-right: 3px;
+}

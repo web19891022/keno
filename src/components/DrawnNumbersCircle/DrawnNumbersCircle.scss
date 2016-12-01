@@ -1,0 +1,18 @@
+.numberCircle {
+    border-radius: 50%;
+    width: 56px;
+    height: 56px;
+    padding: 8px;
+    background: #CCFFFF;
+    border: 2px solid black;
+    color: black;
+    text-align: center;
+    font: 32px Arial, sans-serif;
+    display: inline-block;
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none;   /* Chrome/Safari/Opera */
+    -khtml-user-select: none;    /* Konqueror */
+    -moz-user-select: none;      /* Firefox */
+    -ms-user-select: none;       /* IE/Edge */
+     user-select: none;
+}

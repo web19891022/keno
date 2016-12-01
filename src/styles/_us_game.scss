@@ -1,0 +1,665 @@
+.Keno_Bingo_USA {
+    background: url(images/us/background.png);
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    .container {
+      height: 100%;
+    }
+    .lobby-header-row {
+      margin-top: 5px;
+    }
+    .lobby-object-wrapper-row {
+      opacity: 0.95;
+      border-radius: 4px;
+      background-image: url(images/us/desktop-header-background.png);
+      box-shadow: 0 0 14px 0 rgba(0, 0, 0, 0.5);
+      border-top: none;
+      border-left: none;
+      margin-top: 32px;
+    }
+    .menu-devider {
+      border: none;
+      border-image: none;
+    }
+    .col-lobby-object {
+      min-height: 30px;
+      margin-top: 36px;
+    }
+    .game-name-header {
+      background-image: url(images/us/desktop-l-o-g-o-u-s.png);
+      background-size: cover;
+      margin: 0 auto;
+      width: 164px;
+      margin-bottom: 10px;
+      height: 70px;
+    }
+    .lobby-object-welcome-text {
+      font-size: 12px;
+      position: relative;
+      top: -10px;
+      margin-left: 15px;
+    }
+    #numberCircles {
+      border-radius: 8px;
+      background-image: url(images/us/dekstop-number-board-bg.png);
+      box-shadow: 0 0 14px 0 rgba(0, 0, 0, 0.5);
+      padding-left: 26px;
+      background-repeat: no-repeat;
+      background-size: cover;
+      padding-top: 5px;
+    }
+    .numberCircle {
+      background-image: url(images/us/circle-us.png);
+      text-align: center;;
+      padding-top: 13px;
+      padding-right: 2px;
+      background-repeat: no-repeat;
+      font-size: 14px;
+      margin-right: 6px;
+      margin-top: 2px;
+      font-weight: 900;
+    }
+    .numberCircleChecked {
+      background-image: url(images/us/circle-us-red.png);
+      width: 50px;
+      padding-top: 13px;
+      background-repeat: no-repeat;
+      font-size: 14px;
+      font-weight: 900;
+      margin-right: 4px;
+    }
+    .numberCircleDrawn {
+      background-image: url(images/us/circle-uk-mobile.png);
+      width: 50px;
+      padding-top: 13px;
+      background-size: contain;
+      padding-right: 2px;
+      background-repeat: no-repeat;
+      font-size: 14px;
+      font-weight: 900;
+      margin-right: 4px;
+    }
+    .drawn-numbers-circle {
+      background-image: url(images/us/circle-uk-mobile.png);
+      font-size: 14px;
+      font-weight: 900;
+      margin: 0 auto;
+      display: inline-block;
+      margin-top: 6px;
+      padding-right: 6px;
+      width: 50px;
+      padding-top: 10px;
+      height: 50px;
+      background-repeat: no-repeat;
+      margin-right: 4px;
+    }
+    .numberCircleMathed {
+      background-image: url(images/us/circle-us-yellow.png);
+      width: 50px;
+      padding-top: 13px;
+      background-repeat: no-repeat;
+      padding-right: 2px;
+      font-size: 14px;
+      font-weight: 900;
+      margin-right: 4px;
+      background-repeat: no-repeat;
+    }
+    .game-seaction-header {
+      margin-top: 0px !important;
+      top: -40px;
+      right: 50px;
+      position: absolute;
+      margin-top: 0px !important;
+      top: -35px;
+      right: 50px;
+      position: absolute;
+      font-family: Sansation;
+      font-size: 20px;
+      font-weight: bold;
+      font-style: normal;
+      font-stretch: normal;
+      text-align: center;
+      color: #ffffff;
+      text-shadow: 0 -1px 2px rgba(0, 0, 0, 0.8);
+    }
+    .game-leaderboard {
+      padding-left: 50px;
+      display: flex;
+      justify-content: space-between;
+      flex-direction: column;
+      height: 100%;
+    }
+    .game-leaderboard-wrapper {
+      display: flex;
+      justify-content: space-between;
+      flex-direction: column;
+      height: 100%;
+    }
+    .leader-player-wrapper {
+      background: transparent;
+      background-image: url(images/us/leaderboard-bg.png);
+      box-shadow: 0 0 14px 0 rgba(0, 0, 0, 0.5);
+      background-repeat: no-repeat;
+      background-size: cover;
+      margin-bottom: 0px;
+      background-color: none;
+      left: 0px;
+    }
+    .leader-player-gold {
+      position: relative;
+      top: 31px;
+      max-width: 130px;
+      left: 80px;
+    }
+    .leader-player-gold div {
+      left: 10px;
+    }
+    .leader-player-header, .leader-player-header-left, .leader-player-name {
+      background-color: transparent;
+      background-image: linear-gradient(180deg, #c43d47, #a9373f);
+    }
+    .leader-player-name {
+      font-family: 'Nunito', sans-serif;
+      font-weight: 700;
+      color: #ffffff;
+      text-shadow: 0 0 2px rgba(0, 0, 0, 0.8);
+    }
+    .game-results-header {
+      margin-top: 0 !important;
+      top: -60px;
+      position: relative;
+      font-family: "Sansation";
+      font-size: 18px;
+      font-weight: 700;
+      color: #ffffff;
+      text-shadow: 0 -1px 2px rgba(0, 0, 0, 0.8);
+    }
+    .payout-header {
+      background-image: linear-gradient(to left, #5baf59, #387539);
+      box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.5);
+      padding: 0px;
+    }
+    .payout-header h4{
+      text-align: center;
+      color: white;
+      font-family: 'Nunito', sans-serif;
+      font-size: 12px;
+      font-weight: 700;
+      text-align: center;
+      color: #ffffff;
+      text-shadow: 0 0 2px rgba(0, 0, 0, 0.8);
+    }
+
+    .table-payout-header {
+      margin-top: 0!important;
+      top: -35px;
+      left: 25px;
+      position: absolute;
+      text-shadow: -3px 2px rgba(0,0,0,.6);
+      font-size: 18px !important;;
+      font-weight: bold;
+      font-style: normal;
+      font-stretch: normal;
+      text-align: center;
+      color: #fff;
+    }
+    .table-results-header {
+      margin-top: 0!important;
+      top: -35px;
+      right: 45px;
+      position: absolute;
+      text-shadow: -3px 2px rgba(0,0,0,.6);
+      font-family: Sansation;
+      font-size: 18px;
+      font-weight: bold;
+      font-style: normal;
+      font-stretch: normal;
+      text-align: center;
+      color: #ffffff;
+      text-shadow: 0 -1px 2px rgba(0, 0, 0, 0.8);
+    }
+
+    .game-table-paytable-header {
+      min-height: 40px;
+      background-image: linear-gradient(to bottom, #5baf59, #387539);
+      box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+      border-top-left-radius: 8px;
+      font-family: 'Nunito', sans-serif;
+      position: relative;
+      font-size: 14px;
+      font-weight: 700;
+      text-align: center;
+      color: #ffffff;
+      text-shadow: 0 0 2px rgba(0, 0, 0, 0.8);
+    }
+    .game-table-paytable-header .no-padding {
+      min-height: 40px;
+    }
+    .game-table-paytable-header span {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translateX(-50%) translateY(-50%);
+    }
+    .game-table-result-header {
+      min-height: 40px;
+      background-image: linear-gradient(to right, #c43d47, #a9373f);
+      box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+      border-top-right-radius: 8px;
+      font-family: 'Nunito', sans-serif;
+      position: relative;
+      font-size: 14px;
+      font-weight: 700;
+      text-align: center;
+      color: #ffffff;
+      text-shadow: 0 0 2px rgba(0, 0, 0, 0.8);
+    }
+    .game-table-result-header .no-padding {
+      min-height: 40px;
+    }
+    .game-table-result-header span {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translateX(-50%) translateY(-50%);
+    }
+
+    .numberCircles {
+      margin-left: 25px;
+    }
+    .game-table-content {
+      flex: 10;
+      background-image: url('images/us/desktop-inforesults-background.png');
+      background-size: cover;
+      box-shadow: 0 0 14px 0 rgba(0, 0, 0, 0.5);
+      margin: 0px;
+    }
+    .game-table-footer {
+      min-height: 40px;
+      border-bottom-left-radius: 8px;
+      border-bottom-right-radius: 8px;
+      flex: 1;
+      background-image: linear-gradient(to top, #fffe8a, #b38515);
+      box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.5), inset 0 -1px 4px 0 rgba(162, 28, 28, 0.77), inset 0 2px 7px 0 #efe562;
+    }
+    .game-table-footer h4 {
+      font-family: 'Nunito', sans-serif;
+      font-size: 16px;
+      margin-left: 10px;
+      display: inline-block;
+      font-weight: 700;
+      color: #000000;
+    }
+    .game-table-footer img {
+      margin-left: 10px;
+    }
+    .game-table-footer h3 {
+      font-family: 'Alfa Slab One', cursive;
+      float: right;
+      display: inline-block;
+      font-size: 22px;
+      margin-top: 10px;
+      margin-right: 10px;
+      font-weight: 400;
+      color: #dd0707;
+      -webkit-text-stroke: 2px #ffffff;
+    }
+    .game-table-content-payout {
+      height: 21px;
+      font-family: "Sansation";
+      margin-top: 10px;
+      margin-bottom: 10px;
+      font-size: 18px;
+      font-weight: 700;
+      text-align: center;
+      color: #ffffff;
+      text-shadow: 0 -1px 2px rgba(0, 0, 0, 0.8);
+    }
+
+    .btn-buy-more-coins {
+      width: 200px;
+      height: 40px;
+      border: 0px;
+      margin-top: 20px;
+      border-radius: 25px;
+      background-image: linear-gradient(to bottom, #fffe8a, #b38515);
+      box-shadow: 0 0 4px 0 #efe767, inset 0 -1px 4px 0 rgba(162, 28, 28, 0.77), inset 0 2px 7px 0 #efe562;
+    }
+
+    .btn-buy-more-coins:focus {
+      outline: none;
+    }
+    .btn-buy-more-coins:active {
+      outline: none;
+      position: relative;
+      top: 1px;
+    }
+    .btn-buy-more-coins span {
+      font-family: 'Sansation';
+      font-size: 15px;
+      font-weight: 700;
+      text-align: center;
+      color: #000000;
+    }
+    .btn-buy-more-coins img {
+      margin-right: 5px;
+    }
+
+    .numbers-matched-title {
+      font-family: 'Alfa Slab One', cursive;
+      float: right;
+      display: inline-block;
+      font-size: 24px;
+      margin-top: 10px;
+      width: 100%;
+      text-align: center;
+      margin-top: 30px;
+      font-weight: 400;
+      color: #dd0707;
+      -webkit-text-stroke: 2px #ffffff;
+    }
+
+    .btn-game-information {
+      float: right;
+      margin-top: 20px;
+      width: 200px;
+      border: 0px;
+      height: 40px;
+      border-radius: 25px;
+      background-image: linear-gradient(to bottom, #5baf59, #387539);
+      box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.5);
+    }
+    .btn-game-information:active {
+      position: relative;
+      top: 1px;
+    }
+    .btn-game-information:focus {
+      outline: none;
+    }
+    .btn-game-information span {
+      font-family: "Sansation";
+      font-size: 15px;
+      font-weight: 700;
+      text-align: center;
+      color: #ffffff;
+    }
+    .container {
+      display: flex;
+      flex-direction: column;
+    }
+    .game-footer {
+      flex: 1;
+      border-radius: 8px;
+      background-image: url(images/us/desktop-control-panel-bg.png);
+      box-shadow: 0 0 14px 0 rgba(0, 0, 0, 0.5);
+      margin-bottom: 10px;
+      margin-right: -15px;
+      margin-left: -15px;
+    }
+    .game-footer-circles-matched {
+      border-top-right-radius: 8px;
+      border-top-left-radius: 8px;
+      width: 100%;
+      text-align: center;
+      padding-top: 2px;
+      height: 60px;
+      background-image: linear-gradient(to right, #c43d47, #a9373f);
+      box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+    }
+    .game-footer-btn-bet {
+      text-align: center;
+      margin-top: 25px;
+    }
+    .btn-clear-result {
+      width: 140px;
+      height: 40px;
+      border: 0px;
+      border-radius: 25px;
+      background-image: linear-gradient(to bottom, #ffffff, #4e7884);
+      box-shadow: 0 0 4px 0 #466c78, inset 0 -1px 4px 0 #4e7783, inset 0 2px 7px 0 #ffffff;
+    }
+    .btn-clear-result:focus {
+      outline: none;
+    }
+    .btn-clear-result:active {
+      position: relative;
+      top: 1px;
+    }
+    .btn-clear-result span {
+      font-family: "Sansation";
+      font-size: 15px;
+      font-weight: 700;
+      text-align: center;
+      color: #305dc8;
+    }
+
+    .btn-bet-group {
+      display: inline-block;
+    }
+
+    .btn-subtact {
+      background-image: url(images/btn-bet-increase.png);
+      height: 25px;
+      width: 17px;
+      background-size: cover;
+      background-repeat: no-repeat;
+      position: relative;
+      top: 6px;
+      margin-right: 12px;
+      margin-left: 30px;
+      background-color: transparent;
+      border: 0px;
+    }
+    .btn-subtact:focus {
+      outline: none;
+    }
+    .btn-subtact:active {
+      position: relative;
+      top: 7px;
+    }
+    .btn-increase {
+      background-image: url(images/btn-bet-increase.png);
+      height: 25px;
+      width: 17px;
+      background-size: cover;
+      background-repeat: no-repeat;
+      position: relative;
+      top: 6px;
+      margin-left: 12px;
+      transform: rotate(180deg);
+      margin-right: 30px;
+      background-color: transparent;
+      border: 0px;
+    }
+    .btn-increase:focus {
+      outline: none;
+    }
+    .btn-increase:active {
+      position: relative;
+      top: 7px;
+    }
+    .btn-quick-pick {
+      width: 140px;
+      height: 40px;
+      border-radius: 25px;
+      background-image: linear-gradient(to top, #2f3757, #43548d);
+      box-shadow: 0 0 6px 1px #3a4876;
+      background-color: transparent;
+      font-family: Sansation;
+      font-size: 15px;
+      font-weight: 700;
+      text-align: center;
+      color: #ffffff;
+      border: 0px;
+    }
+    .btn-quick-pick:focus {
+      outline: none;
+    }
+    .btn-quick-pick:active {
+      position: relative;
+      top: 1px;
+    }
+    button:focus {
+      outline: none;
+    }
+    button:active {
+      position: relative;
+      top: 1px;
+    }
+    .bet-amount {
+      width: 160px;
+      height: 40px;
+      border-radius: 18.5px;
+      box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.5);
+      border-style: solid;
+      font-style: italic;
+      display: inline-block;
+      border-width: 2px;
+      font-family: "Sansation";
+      font-size: 23px;
+      padding-top: 1px;
+      font-weight: 400;
+      color: #ffffff;
+      border-color: #acd0da;
+    }
+    .picture-profile {
+      margin-top: 51px;
+    }
+    .game-footer-bottom {
+      text-align: center;
+      margin-top: 20px;
+      position: relative;
+    }
+    .btn-exit-game:active {
+      position: absolute;
+      top: 1px;
+    }
+    .btn-exit-game {
+      font-family: Sansation;
+      font-size: 15px;
+      font-weight: 700;
+      float: left;
+      text-align: center;
+      color: #ffffff;
+      position: absolute;
+      left: 0px;
+      width: 120px;
+      float: left;
+      background-color: transparent;
+      height: 40px;
+      border-radius: 25px;
+      opacity: 0.5;
+      margin-left: 40px;
+      border: solid 2px #ffffff;
+    }
+    .btn-play-count {
+      width: 100px;
+      height: 40px;
+      border-radius: 25px;
+      background-image: linear-gradient(to top, #2f3757, #43548d);
+      box-shadow: 0 0 6px 1px #3a4876;
+      font-family: Sansation;
+      font-size: 15px;
+      font-weight: 700;
+      border: none;
+      text-align: center;
+      color: #ffffff;
+      margin-left: 30px;
+      margin-right: 30px;
+    }
+    .btn-play-game {
+      width: 140px;
+      height: 40px;
+      opacity: 0.95;
+      border-radius: 25px;
+      background-image: linear-gradient(rgba(90, 147, 151, 0.67), rgba(90, 147, 151, 0.67)), linear-gradient(to bottom, rgba(14, 45, 80, 0.5), rgba(0, 127, 255, 0.5));
+      box-shadow: 0 0 14px 0 rgba(0, 0, 0, 0.5);
+      font-size: 15px;
+      font-weight: 700;
+      text-align: center;
+      border: none;
+      color: #ffffff;
+    }
+
+    //Grid system
+    .grid {
+      display: flex;
+    }
+    .grid--fit {
+      flex: 1;
+    }
+    .grid--30 {
+      flex: 30%;
+    }
+}
+  @media screen and (max-width: 991px) {
+
+    .Keno_Bingo_USA {
+      height: 100%;
+      background-size: cover;
+      .container-fluid {
+        padding-left: 0px;
+        padding-right: 0px;
+      }
+      .grid{
+        flex-direction: column;
+      }
+      .payout-table {
+        margin-top: 40px;
+        margin-bottom: 20px;
+      }
+      .numberCircles {
+        margin-left: 0px;
+        padding-left: 0px;
+        margin-bottom: 20px;
+      }
+      #numberCircles {
+        padding-left: 0px;
+        text-align: center;
+      }
+      .game-leaderboard {
+        padding-left: 0px;
+      }
+      .game-seaction-header {
+        position: relative;
+        top: 0px;
+        right: 0px;
+        margin-bottom: 20px;
+      }
+      .game-leaderboard-wrapper {
+        margin-left: 25px;
+      }
+      .numbers-matched-title-wrapper {
+        order: 2;
+      }
+      .game-btn-flex-wrapper {
+        text-align: center;
+      }
+      .btn-game-information {
+        float: none;
+      }
+      .btn-buy-more-coins {
+        float: none;
+      }
+      .game-footer-bottom {
+        margin-bottom: 30px;
+      }
+      .btn-exit-game {
+        position: relative;
+      }
+      .btn-clear-result, .btn-play-count, .btn-exit-game {
+        margin-bottom: 10px;
+      }
+      .btn-quick-pick {
+        margin-top: 10px;
+      }
+      .lobby-object-wrapper-row {
+        margin-top: 0px;
+        background-image: url(images/us/dekstop-number-board-bg.png);
+      }
+      .game-footer {
+        background-image: url(images/us/dekstop-number-board-bg.png);
+      }
+    }
+  }
