@@ -59,16 +59,16 @@ export class TrophiesModal extends React.Component {
           <div className="modal-body" style={{'textAlign': 'right'}}>
             <TrophiesList trophies={this.state.data} />
             <ReactPaginate
-              previousLabel={"previous"}
-              nextLabel={"next"}
+              previousLabel={'previous'}
+              nextLabel={'next'}
               breakLabel={<a href="">...</a>}
               pageNum={this.state.pageNum}
               marginPagesDisplayed={2}
               pageRangeDisplayed={5}
               clickCallback={this.handlePageClick}
-              containerClassName={"pagination"}
-              subContainerClassName={"pages pagination"}
-              activeClassName={"active"} />
+              containerClassName={'pagination'}
+              subContainerClassName={'pages pagination'}
+              activeClassName={'active'} />
           </div>
         </div>
       </Modal>

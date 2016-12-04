@@ -51,7 +51,7 @@ export class LoginView extends React.Component<void, Props, void> {
               autoLoad={false}
               />
             <br />
-              {this.props.lobbyPageLoading && <h4>Loading...</h4>}
+            {this.props.lobbyPageLoading && <h4>Loading...</h4>}
           </div>
         </Grid>
       </div>

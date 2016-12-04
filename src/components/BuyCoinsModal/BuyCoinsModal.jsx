@@ -95,11 +95,11 @@ export default class BuyCoinsModal extends React.Component {
             </div>
             <div className="modal-body">
               <Row>
-                  {priceBlocks.map((i) => {
-                    return (
-                      i
-                    )
-                  }, this)}
+                {priceBlocks.map((i) => {
+                  return (
+                    i
+                  )
+                }, this)}
               </Row>
               <Row>
                 <Col xs={12} md={12}>

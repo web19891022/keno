@@ -73,9 +73,9 @@ export class GameView extends React.Component {
       this.props.leaveGame()
     }
     const normalImages = [ 'Spade_Queen.png', 'Spade_9.png', 'Spade_5.png', 'Spade_10.png', 'Heart_A.png', 'Heart_6.png', 'Heart_2.png', 'Diamond_J.png', 'Diamond_7.png', 'Diamond_3.png', 'Club_King.png', 'Club_8.png', 'Club_4.png',
-    'Spade_King.png', 'Spade_8.png', 'Spade_4.png', 'Heart_Queen.png', 'Heart_9.png', 'Heart_5.png', 'Heart_10.png', 'Diamond_A.png', 'Diamond_6.png', 'Diamond_2.png', 'Club_J.png', 'Club_7.png', 'Club_3.png',
-    'Spade_J.png', 'Spade_7.png', 'Spade_3.png', 'Heart_King.png', 'Heart_8.png', 'Heart_4.png', 'Diamond_Queen.png', 'Diamond_9.png', 'Diamond_5.png', 'Diamond_10.png', 'Club_A.png', 'Club_6.png', 'Club_2.png',
-    'Spade_A.png', 'Spade_6.png', 'Spade_2.png', 'Heart_J.png', 'Heart_7.png', 'Heart_3.png', 'Diamond_King.png', 'Diamond_8.png', 'Diamond_4.png', 'Club_Queen.png', 'Club_9.png', 'Club_5.png', 'Club_10.png'
+      'Spade_King.png', 'Spade_8.png', 'Spade_4.png', 'Heart_Queen.png', 'Heart_9.png', 'Heart_5.png', 'Heart_10.png', 'Diamond_A.png', 'Diamond_6.png', 'Diamond_2.png', 'Club_J.png', 'Club_7.png', 'Club_3.png',
+      'Spade_J.png', 'Spade_7.png', 'Spade_3.png', 'Heart_King.png', 'Heart_8.png', 'Heart_4.png', 'Diamond_Queen.png', 'Diamond_9.png', 'Diamond_5.png', 'Diamond_10.png', 'Club_A.png', 'Club_6.png', 'Club_2.png',
+      'Spade_A.png', 'Spade_6.png', 'Spade_2.png', 'Heart_J.png', 'Heart_7.png', 'Heart_3.png', 'Diamond_King.png', 'Diamond_8.png', 'Diamond_4.png', 'Club_Queen.png', 'Club_9.png', 'Club_5.png', 'Club_10.png'
     ]
     $('.Keno_Blackjack .numberCircle').each((i) => {
       const image = normalImages[Math.floor(Math.random() * normalImages.length)]

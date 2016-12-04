@@ -29,11 +29,11 @@ export default class GamesList extends React.Component {
     return (
       <Col xs={12} md={12} className="text-center">
         <h3 className="text-center game-seaction-header">Game List</h3>
-          {gamesListItems.map((i) => {
-            return (
-              i
-            )
-          }, this)}
+        {gamesListItems.map((i) => {
+          return (
+            i
+          )
+        }, this)}
       </Col>
     )
   }

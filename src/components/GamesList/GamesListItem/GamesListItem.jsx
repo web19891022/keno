@@ -48,7 +48,7 @@ export default class GamesListItem extends React.Component {
             {this.props.minBet}</span></div>
           <div className="game-item-info game-item-info-boards">
             Boarding<br />numbers<br /><span className="game-info-number">
-            {this.props.boardNumbers}</span></div>
+              {this.props.boardNumbers}</span></div>
           <div className="game-item-info">Max<br />bet<br /> <span className="game-info-number">
             {this.props.maxBet}</span></div>
         </div>
